@@ -1,0 +1,85 @@
+QT5
+
+INTERMEDIATE
+
+Q1.Use QScopedPointer to practice memory management.
+Questions for this assignment
+
+What happens to a pointer if you don't delete it?
+It becomes a dangling pointer that can crash your application.
+
+Q2.Make an application that uses QMap and allows the user to enter multiple names and ages.
+Questions for this assignment
+
+Why use a QMap?
+Easy key / value pairs
+
+Q3.Store some settings using QSettings.
+Questions for this assignment
+
+What does QSettings do?
+Allows you to save values easily.
+
+Q4.Write "hello world" to a file and read the file contents back.
+Questions for this assignment
+
+What is QIODevice?
+An abstract class that wraps input and output for most devices
+
+Q5.Make a category and play around with enabling and disabling the category.
+Questions for this assignment
+
+What does qInstallMessageHandler do?
+Has Qt call a custom function.
+
+Q6.Convert a QString to Bsae64 and back to a QString
+Questions for this assignment
+
+What is encoding?
+Converting data to a predictable format.
+
+Q7.Create some data and compress it, then decompress it.
+Questions for this assignment
+
+What does qCompress use in the background?
+zLib
+
+Q8.Serialize a list of numbers to disk and read them back.
+Questions for this assignment
+
+What does serialization do?
+Encodes and object and saves it to disk as a file.
+
+Q9.Create a QVector, fill it with random numbers and then sort it.
+Questions for this assignment
+
+Why use the STL over Qt code?
+Industry standards and compatibility with C++
+
+Q10.Run a process twice, once using start, and once using execute. Learn the difference between the two in the Qt Documentation.
+Questions for this assignment
+
+What is an exit code?
+An exit code is a status returns by the process.
+
+Q11.Create a file system watching to watch one file, but do not use QFileSystemWatcher, only use QTimer
+Questions for this assignment
+
+Why use timers?
+To control when code is executed.
+
+Q12.Add Author and URL to a class and disable copy of that class.
+Questions for this assignment
+
+What is meta data?
+Data about data
+
+Q13.Make a class and have it use the thread safe singleton pattern
+Questions for this assignment
+
+Why use a design pattern?
+Best practice and industry standards
+
+
+
+
